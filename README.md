@@ -15,9 +15,9 @@ Like many other people, I have a select few songs I listen to on repeat until th
     -**NOTE**: If you want to send a text, ensure `phone_number` is formatted as follows:
       `"+11234567890"` where +1 is your country code, the next three digits are the area code, and the remaining is the actual phone number. Ensure it is a string.
 
-    -NOTE: `number_of_songs_to_output` must be an integer. The default value is 10 but it cannot exceed 15.
+    -**NOTE*: `number_of_songs_to_output` must be an integer. The default value is 10 but it cannot exceed 15.
   
-    -NOTE: `"Name of Song"` and `"Name of Artist"` MUST be string values. Ensure spelling is correct before submitting.
+    -**NOTE*: `"Name of Song"` and `"Name of Artist"` MUST be string values. Ensure spelling is correct before submitting.
   
 5. An example of running this within a CLI would be:
 `python3 song_recommendation.py "God's Plan" "Drake" 5 "+11234567890"`
