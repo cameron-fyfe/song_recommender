@@ -12,7 +12,7 @@ Like many other people, I have a select few songs I listen to on repeat until th
 4. Run the following command within the CLI:
 `python3 song_recommendation.py "Name of Song" "Name of Artist" number_of_songs_to_output phone_number`
 
-    -NOTE: If you want to send a text, ensure `phone_number` is formatted as follows:
+    -**NOTE**: If you want to send a text, ensure `phone_number` is formatted as follows:
       `"+11234567890"` where +1 is your country code, the next three digits are the area code, and the remaining is the actual phone number. Ensure it is a string.
 
     -NOTE: `number_of_songs_to_output` must be an integer. The default value is 10 but it cannot exceed 15.
