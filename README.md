@@ -9,5 +9,7 @@ Like many other people, I have a select few songs I listen to on repeat until th
 1. Clone to this repository to your local machine.
 2. Install the requirements.txt file. This does not contain any 'funky' packages.
 3. Open your machine's CLI and navigate to the location of this repository.
-4. 
-5. Run the following command within the CLI: `python3 song_recommendation.py "Name of Song" "Name of Artist" number_of_songs_to_output phone_number`
+4. Run the following command within the CLI:
+`python3 song_recommendation.py "Name of Song" "Name of Artist" number_of_songs_to_output phone_number`
+- NOTE: If you want to send a text, ensure phone_number is formatted as follows:
+  `+11234567890` where +1 is your country code, the next three digits are the area code, and the remaining is the actual phone number
