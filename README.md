@@ -1,4 +1,4 @@
-## song_recommender repo:
+## song_recommender repository:
 This Python repository will output a given number of recommended songs based on an inputted song by a given artist. 
 If desired, it will also send you a text message (via Amazon SNS) with your recommended songs.
 
@@ -7,8 +7,8 @@ Like many other people, I have a select few songs I listen to on repeat until th
 
 ## Steps to use:
 1. Clone to this repository to your local machine.
-2. Install the `requirements.txt` file.
-3. Open your machine's CLI and navigate to the location of this repository.
+2. Open your machine's CLI and navigate to the location of this repository.
+3. Install the `requirements.txt` file. By using the following command: `pip install requirements.txt` 
 4. Run the following command within the CLI:
 `python3 song_recommendation.py "Name of Song" "Name of Artist" number_of_songs_to_output phone_number`
 
