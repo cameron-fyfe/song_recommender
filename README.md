@@ -7,7 +7,7 @@ Like many other people, I have a select few songs I listen to on repeat until th
 
 ## Steps to use:
 1. Clone to this repository to your local machine.
-2. Install the `requirements.txt` file. This does not contain any 'funky' packages.
+2. Install the `requirements.txt` file.
 3. Open your machine's CLI and navigate to the location of this repository.
 4. Run the following command within the CLI:
 `python3 song_recommendation.py "Name of Song" "Name of Artist" number_of_songs_to_output phone_number`
