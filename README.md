@@ -26,6 +26,7 @@ Like many other people, I have a select few songs I listen to on repeat until th
 
 
 ## Future iterations:
+- Once the origination number is provisioned (and working), enable capabilities for others to just text *that* number with their desired song, artist, and number of output combination rather than having to use the CLI to send a text.
 - Instead of using the recommendation feature from the `spotipy` library, create my own recommendation model.
 - Incorporate the ability to input a list of songs rather than just one
 - And more as more ideas pop into my head :)
