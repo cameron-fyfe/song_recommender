@@ -22,3 +22,10 @@ Like many other people, I have a select few songs I listen to on repeat until th
 5. An example of running this within a CLI would be:
 `python3 song_recommendation.py "God's Plan" "Drake" 5 "+11234567890"`
 6. This will output an assortment of song names by particular artists based on your inputs. If you specified a phone number to send a text with these recommendations to, you will see an additional print statement within your CLI stating that the text was sent.
+
+
+
+## Future iterations:
+- Instead of using the recommendation feature from the `spotipy` library, create my own recommendation model.
+- Incorporate the ability to input a list of songs rather than just one
+- And more as more ideas pop into my head :)
